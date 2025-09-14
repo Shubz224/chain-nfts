@@ -1,0 +1,553 @@
+{
+    "contractName": "DeployOurToken",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "INITIAL_SUPPLY",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "IS_SCRIPT",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "run",
+            "outputs": [
+                {
+                    "internalType": "contract OurToken",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.30+commit.73712a01\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"INITIAL_SUPPLY\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"IS_SCRIPT\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"run\",\"outputs\":[{\"internalType\":\"contract OurToken\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/shubz/Blockchain/chain-nfts/script/DeployOurToken.s.sol\":\"DeployOurToken\"},\"evmVersion\":\"prague\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/Base.sol\":{\"keccak256\":\"0xa3735a6618a3014e42bb4329ad143e3b2c59cd95094350202e4c4a06c9d585dd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eef9db48d94726ec3d3fa3a84a8d520903705190f7ee7a04a065335a6aeeac4d\",\"dweb:/ipfs/QmSWmNny7TkzyqRPjGdpERAJuBwwznrGPLUqS4DZy5fX5z\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/Script.sol\":{\"keccak256\":\"0xc942e27c7baae499beb01afbbae99f24d42af9a6e4aae675bc6901b704aa8e9b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0456008adf68947247f358b62863af4a8e349549d2260f2ff9569ff0e3cf5c98\",\"dweb:/ipfs/QmdviSUj2i7o3TPN5vd2xocqGMFVqjUzaiJTZRYyPxyHPx\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdChains.sol\":{\"keccak256\":\"0xd3edaf57db178f839d97ccee0009c2b7b20f78c2adca9028a6013acb8d5b4c5e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0f17329ac1d25d3e6657ca240dee0a3f9b2cf22a64a05b87dac15252dee74351\",\"dweb:/ipfs/QmPHxkEwgVpQNbU52s58RmmegrkYGj8bNKTVSW8rZm3dBm\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdCheats.sol\":{\"keccak256\":\"0x0fa6ec03602648b62cce41aab2096e6b7e052f2846075d967b6958dd586db746\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cd84e2ca9c1eaed6b76768cc12bb8c1af8289170ea8b7706f58d516460d79c41\",\"dweb:/ipfs/QmQ7BK7co6DE4eWUqMyv11s5eHYkS1tyx8tDSZGZVtf2aK\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdConstants.sol\":{\"keccak256\":\"0x319ccdabfa2c0b2428301445873270ffea20f0e039d4fd5e6eeba65158e4e534\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b633f9d3a719e1d035ce7daa6cc051ddf89a72d34200d14cec37728e245cdabc\",\"dweb:/ipfs/QmRP7HQJpHMx1CsFrY8tXVVx1DQmi2dcb2BoGfiWaA923r\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0xbc0132abe1c2accc2867c0f03667afffdf92f3e95a581bb03c9557eaa38ea500\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eb6fab37dc73c219cfbb7b4f4998bcf7677ca5397a867e850f40232192073974\",\"dweb:/ipfs/QmUHsbVdp9SKmgek7ZfPcLTKrpZFXpqaqt4sVejzxGEQL3\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdMath.sol\":{\"keccak256\":\"0xd90ad4fd8aeaeb8929964e686e769fdedd5eded3fc3815df194a0ab9f91a3fb2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7919b70f636c7b805223992f28ad1ad0145d6c1385b5931a3589aface5fe6c92\",\"dweb:/ipfs/QmY7FRaULwoGgFteF8GawjQJRfasNgpWnU2aiMsFrYpuTC\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdStorage.sol\":{\"keccak256\":\"0x04102de0a79398e4bdea57b7a4818655b4cc66d6f81d1cff08bf428cd0b384cd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://53edc6c8f7f67cafc0129f039637c77d979880f7f1947defea31e8f0c05095bc\",\"dweb:/ipfs/QmUKXJd1vFCkxxrkXNLURdXrx2apoyWQFrFb5UqNkjdHVi\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdStyle.sol\":{\"keccak256\":\"0x43e2a8a9b9c2574dabe74f11adf6f782df218f463540e3b5b563609fe108597d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://51363ca97404cf4128e1141428949768c31929e75e014b02c85e887fbbb4f1b8\",\"dweb:/ipfs/QmVhtbQc2fU4rRmbcfBtz34mAgG4BAZBsbna1Ca4SkoPsK\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0xb2469a902a326074034c4f7081d868113db0edbb7cf48b86528af2d6b07295f8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1430a81c4978be875e2a3b31a8bfa4e1438fecd327f23771b690d64db63c020a\",\"dweb:/ipfs/QmW6aB2u1LNaRgGQFwjV7L7UbxsRg63iJ7AuujPouEa4cT\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0xe2b159412b06b44a7f90972104300c587f308506d37d2143dd7e689e2eac6f01\",\"license\":\"MIT OR Apache-2.0\",\"urls\":[\"bzz-raw://a96e13ac6fec3ffe61a55d6005ef0ef96f47adf3f4f3531e0418f0bf02d3f93c\",\"dweb:/ipfs/QmeFci69gm7a6c6pEqSNoe3HfXPVPiagUc51Pyo5PoS8Rn\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/console.sol\":{\"keccak256\":\"0x4bbf47eb762cef93729d6ef15e78789957147039b113e5d4df48e3d3fd16d0f5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://af9e3a7c3d82fb5b10b57ca4d1a82f2acbef80c077f6f6ef0cc0187c7bfd9f57\",\"dweb:/ipfs/QmR9VzmnBDJpgiDP6CHT6truehukF9HpYvuP6kRiJbDwPP\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/console2.sol\":{\"keccak256\":\"0x3b8fe79f48f065a4e4d35362171304a33784c3a90febae5f2787805a438de12f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://61de63af08803549299e68b6e6e88d40f3c5afac450e4ee0a228c66a61ba003d\",\"dweb:/ipfs/QmWVoQ5rrVxnczD4ZZoPbD4PC9Z3uExJtzjD4awTqd14MZ\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]},\"/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/safeconsole.sol\":{\"keccak256\":\"0xbef9786cb49d3eade757bad87568c49c8c8f35721f0193c95ffb055d9e466e11\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3bafd2b0b2d28068d329f95ea8a1fbce3719c257fcb863fc01abcbafd8d531ab\",\"dweb:/ipfs/QmUeaFjKWTVDBsHVfSob4mwt6A5hTnKDz22HaUXeZhypa3\"]},\"/home/shubz/Blockchain/chain-nfts/lib/openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol\":{\"keccak256\":\"0x19fdfb0f3b89a230e7dbd1cf416f1a6b531a3ee5db4da483f946320fc74afc0e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3490d794728f5bfecb46820431adaff71ba374141545ec20b650bb60353fac23\",\"dweb:/ipfs/QmPsfxjVpMcZbpE7BH93DzTpEaktESigEw4SmDzkXuJ4WR\"]},\"/home/shubz/Blockchain/chain-nfts/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0x86b7b71a6aedefdad89b607378eeab1dcc5389b9ea7d17346d08af01d7190994\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1dc2db8d94a21eac8efe03adf574c419b08536409b416057a2b5b95cb772c43c\",\"dweb:/ipfs/QmZfqJCKVU1ScuX2A7s8WZdQEaikwJbDH5JBrBdKTUT4Gu\"]},\"/home/shubz/Blockchain/chain-nfts/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x74ed01eb66b923d0d0cfe3be84604ac04b76482a55f9dd655e1ef4d367f95bc2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5282825a626cfe924e504274b864a652b0023591fa66f06a067b25b51ba9b303\",\"dweb:/ipfs/QmeCfPykghhMc81VJTrHTC7sF6CRvaA1FXVq2pJhwYp1dV\"]},\"/home/shubz/Blockchain/chain-nfts/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0xd6fa4088198f04eef10c5bce8a2f4d60554b7ec4b987f684393c01bf79b94d9f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f95ee0bbd4dd3ac730d066ba3e785ded4565e890dbec2fa7d3b9fe3bad9d0d6e\",\"dweb:/ipfs/QmSLr6bHkPFWT7ntj34jmwfyskpwo97T9jZUrk5sz3sdtR\"]},\"/home/shubz/Blockchain/chain-nfts/lib/openzeppelin-contracts/contracts/utils/Context.sol\":{\"keccak256\":\"0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12\",\"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF\"]},\"/home/shubz/Blockchain/chain-nfts/script/DeployOurToken.s.sol\":{\"keccak256\":\"0xd8f0a030227522dcf4b5e5f8803078600a44012329773124151f577bc75e4ba3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://14e86ff701eade82c25bd3d00b9577409245de6270535b2cddcdcc777d31b90a\",\"dweb:/ipfs/QmYggpg7CW3rQhmWRE15nJR1AG8iMfUyRi62BE95DULmxr\"]},\"/home/shubz/Blockchain/chain-nfts/src/OurToken.sol\":{\"keccak256\":\"0xc24a0a744a51a17fe8a53840465c629c0ab9170cacd3138c5cfdff66df93c458\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4aadfd95b87885d65d3091bad024e77e2f9e2bf26f1661c734f1ac3a98f97ca2\",\"dweb:/ipfs/QmTkCgcPchVAeZoRQFNLYcAN4FX7hUQwoN3Xo5zABrDX3W\"]}},\"version\":1}",
+    "bytecode": "608080604052346026576201000162ff00ff19600c541617600c55610c1f908161002b8239f35b5f80fdfe6080806040526004361015610012575f80fd5b5f905f3560e01c9081632ff2e9dc146101d257508063c0406226146100675763f8ccbf471461003f575f80fd5b34610064578060031936011261006457602060ff600c5460101c166040519015158152f35b80fd5b50346101ce575f3660031901126101ce57737109709ecfa91a80626ff3989d68f67f5b1dd12d3b156101ce57604051637fb5297f60e01b81525f8160048183737109709ecfa91a80626ff3989d68f67f5b1dd12d5af180156101c3576101b0575b506040516109c08082019082821067ffffffffffffffff83111761019c57602091839161022a8339683635c9adc5dea00000815203019082f0801561018f57737109709ecfa91a80626ff3989d68f67f5b1dd12d3b1561018057604051633b756e9b60e11b8152828160048183737109709ecfa91a80626ff3989d68f67f5b1dd12d5af180156101845761016b575b6040516001600160a01b0383168152602090f35b6101768380926101f3565b6101805781610157565b5080fd5b6040513d85823e3d90fd5b50604051903d90823e3d90fd5b634e487b7160e01b84526041600452602484fd5b6101bc91505f906101f3565b5f5f6100c8565b6040513d5f823e3d90fd5b5f80fd5b346101ce575f3660031901126101ce5780683635c9adc5dea0000060209252f35b90601f8019910116810190811067ffffffffffffffff82111761021557604052565b634e487b7160e01b5f52604160045260245ffdfe60806040523461038f576109c06020813803918261001c81610393565b93849283398101031261038f57516100346040610393565b90600882526727bab92a37b5b2b760c11b60208301526100546040610393565b600281526113d560f21b602082015282519091906001600160401b0381116102a057600354600181811c91168015610385575b602082101461028257601f8111610322575b506020601f82116001146102bf57819293945f926102b4575b50508160011b915f199060031b1c1916176003555b81516001600160401b0381116102a057600454600181811c91168015610296575b602082101461028257601f811161021f575b50602092601f82116001146101be57928192935f926101b3575b50508160011b915f199060031b1c1916176004555b33156101a05760025481810180911161018c57600255335f525f60205260405f208181540190556040519081525f7fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef60203393a360405161060790816103b98239f35b634e487b7160e01b5f52601160045260245ffd5b63ec442f0560e01b5f525f60045260245ffd5b015190505f80610114565b601f1982169360045f52805f20915f5b86811061020757508360019596106101ef575b505050811b01600455610129565b01515f1960f88460031b161c191690555f80806101e1565b919260206001819286850151815501940192016101ce565b60045f527f8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b601f830160051c81019160208410610278575b601f0160051c01905b81811061026d57506100fa565b5f8155600101610260565b9091508190610257565b634e487b7160e01b5f52602260045260245ffd5b90607f16906100e8565b634e487b7160e01b5f52604160045260245ffd5b015190505f806100b2565b601f1982169060035f52805f20915f5b81811061030a575095836001959697106102f2575b505050811b016003556100c7565b01515f1960f88460031b161c191690555f80806102e4565b9192602060018192868b0151815501940192016102cf565b60035f527fc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b601f830160051c8101916020841061037b575b601f0160051c01905b8181106103705750610099565b5f8155600101610363565b909150819061035a565b90607f1690610087565b5f80fd5b6040519190601f01601f191682016001600160401b038111838210176102a05760405256fe6080806040526004361015610012575f80fd5b5f3560e01c90816306fdde03146103ef57508063095ea7b31461036d57806318160ddd1461035057806323b872dd14610271578063313ce5671461025657806370a082311461021f57806395d89b4114610104578063a9059cbb146100d35763dd62ed3e1461007f575f80fd5b346100cf5760403660031901126100cf576100986104e8565b6100a06104fe565b6001600160a01b039182165f908152600160209081526040808320949093168252928352819020549051908152f35b5f80fd5b346100cf5760403660031901126100cf576100f96100ef6104e8565b6024359033610514565b602060405160018152f35b346100cf575f3660031901126100cf576040515f6004548060011c90600181168015610215575b602083108114610201578285529081156101e55750600114610190575b50819003601f01601f191681019067ffffffffffffffff82118183101761017c57610178829182604052826104be565b0390f35b634e487b7160e01b5f52604160045260245ffd5b905060045f527f8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b5f905b8282106101cf57506020915082010182610148565b60018160209254838588010152019101906101ba565b90506020925060ff191682840152151560051b82010182610148565b634e487b7160e01b5f52602260045260245ffd5b91607f169161012b565b346100cf5760203660031901126100cf576001600160a01b036102406104e8565b165f525f602052602060405f2054604051908152f35b346100cf575f3660031901126100cf57602060405160128152f35b346100cf5760603660031901126100cf5761028a6104e8565b6102926104fe565b6001600160a01b0382165f818152600160209081526040808320338452909152902054909260443592915f1981106102d0575b506100f99350610514565b83811061033557841561032257331561030f576100f9945f52600160205260405f2060018060a01b0333165f526020528360405f2091039055846102c5565b634a1406b160e11b5f525f60045260245ffd5b63e602df0560e01b5f525f60045260245ffd5b8390637dc7a0d960e11b5f523360045260245260445260645ffd5b346100cf575f3660031901126100cf576020600254604051908152f35b346100cf5760403660031901126100cf576103866104e8565b602435903315610322576001600160a01b031690811561030f57335f52600160205260405f20825f526020528060405f20556040519081527f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92560203392a3602060405160018152f35b346100cf575f3660031901126100cf575f6003548060011c906001811680156104b4575b602083108114610201578285529081156101e5575060011461045f5750819003601f01601f191681019067ffffffffffffffff82118183101761017c57610178829182604052826104be565b905060035f527fc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b5f905b82821061049e57506020915082010182610148565b6001816020925483858801015201910190610489565b91607f1691610413565b602060409281835280519182918282860152018484015e5f828201840152601f01601f1916010190565b600435906001600160a01b03821682036100cf57565b602435906001600160a01b03821682036100cf57565b6001600160a01b03169081156105be576001600160a01b03169182156105ab57815f525f60205260405f205481811061059257817fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef92602092855f525f84520360405f2055845f525f825260405f20818154019055604051908152a3565b8263391434e360e21b5f5260045260245260445260645ffd5b63ec442f0560e01b5f525f60045260245ffd5b634b637e8f60e11b5f525f60045260245ffdfea26469706673582212204aca42ec3c35b121e076e50f2fa2219b19c205b27e0d81bc90d920edc96828bb64736f6c634300081e0033a2646970667358221220829973953b574afca747575b4150af43efd41dc586f1b66c27eb3043f286ed4864736f6c634300081e0033",
+    "deployedBytecode": "6080806040526004361015610012575f80fd5b5f905f3560e01c9081632ff2e9dc146101d257508063c0406226146100675763f8ccbf471461003f575f80fd5b34610064578060031936011261006457602060ff600c5460101c166040519015158152f35b80fd5b50346101ce575f3660031901126101ce57737109709ecfa91a80626ff3989d68f67f5b1dd12d3b156101ce57604051637fb5297f60e01b81525f8160048183737109709ecfa91a80626ff3989d68f67f5b1dd12d5af180156101c3576101b0575b506040516109c08082019082821067ffffffffffffffff83111761019c57602091839161022a8339683635c9adc5dea00000815203019082f0801561018f57737109709ecfa91a80626ff3989d68f67f5b1dd12d3b1561018057604051633b756e9b60e11b8152828160048183737109709ecfa91a80626ff3989d68f67f5b1dd12d5af180156101845761016b575b6040516001600160a01b0383168152602090f35b6101768380926101f3565b6101805781610157565b5080fd5b6040513d85823e3d90fd5b50604051903d90823e3d90fd5b634e487b7160e01b84526041600452602484fd5b6101bc91505f906101f3565b5f5f6100c8565b6040513d5f823e3d90fd5b5f80fd5b346101ce575f3660031901126101ce5780683635c9adc5dea0000060209252f35b90601f8019910116810190811067ffffffffffffffff82111761021557604052565b634e487b7160e01b5f52604160045260245ffdfe60806040523461038f576109c06020813803918261001c81610393565b93849283398101031261038f57516100346040610393565b90600882526727bab92a37b5b2b760c11b60208301526100546040610393565b600281526113d560f21b602082015282519091906001600160401b0381116102a057600354600181811c91168015610385575b602082101461028257601f8111610322575b506020601f82116001146102bf57819293945f926102b4575b50508160011b915f199060031b1c1916176003555b81516001600160401b0381116102a057600454600181811c91168015610296575b602082101461028257601f811161021f575b50602092601f82116001146101be57928192935f926101b3575b50508160011b915f199060031b1c1916176004555b33156101a05760025481810180911161018c57600255335f525f60205260405f208181540190556040519081525f7fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef60203393a360405161060790816103b98239f35b634e487b7160e01b5f52601160045260245ffd5b63ec442f0560e01b5f525f60045260245ffd5b015190505f80610114565b601f1982169360045f52805f20915f5b86811061020757508360019596106101ef575b505050811b01600455610129565b01515f1960f88460031b161c191690555f80806101e1565b919260206001819286850151815501940192016101ce565b60045f527f8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b601f830160051c81019160208410610278575b601f0160051c01905b81811061026d57506100fa565b5f8155600101610260565b9091508190610257565b634e487b7160e01b5f52602260045260245ffd5b90607f16906100e8565b634e487b7160e01b5f52604160045260245ffd5b015190505f806100b2565b601f1982169060035f52805f20915f5b81811061030a575095836001959697106102f2575b505050811b016003556100c7565b01515f1960f88460031b161c191690555f80806102e4565b9192602060018192868b0151815501940192016102cf565b60035f527fc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b601f830160051c8101916020841061037b575b601f0160051c01905b8181106103705750610099565b5f8155600101610363565b909150819061035a565b90607f1690610087565b5f80fd5b6040519190601f01601f191682016001600160401b038111838210176102a05760405256fe6080806040526004361015610012575f80fd5b5f3560e01c90816306fdde03146103ef57508063095ea7b31461036d57806318160ddd1461035057806323b872dd14610271578063313ce5671461025657806370a082311461021f57806395d89b4114610104578063a9059cbb146100d35763dd62ed3e1461007f575f80fd5b346100cf5760403660031901126100cf576100986104e8565b6100a06104fe565b6001600160a01b039182165f908152600160209081526040808320949093168252928352819020549051908152f35b5f80fd5b346100cf5760403660031901126100cf576100f96100ef6104e8565b6024359033610514565b602060405160018152f35b346100cf575f3660031901126100cf576040515f6004548060011c90600181168015610215575b602083108114610201578285529081156101e55750600114610190575b50819003601f01601f191681019067ffffffffffffffff82118183101761017c57610178829182604052826104be565b0390f35b634e487b7160e01b5f52604160045260245ffd5b905060045f527f8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b5f905b8282106101cf57506020915082010182610148565b60018160209254838588010152019101906101ba565b90506020925060ff191682840152151560051b82010182610148565b634e487b7160e01b5f52602260045260245ffd5b91607f169161012b565b346100cf5760203660031901126100cf576001600160a01b036102406104e8565b165f525f602052602060405f2054604051908152f35b346100cf575f3660031901126100cf57602060405160128152f35b346100cf5760603660031901126100cf5761028a6104e8565b6102926104fe565b6001600160a01b0382165f818152600160209081526040808320338452909152902054909260443592915f1981106102d0575b506100f99350610514565b83811061033557841561032257331561030f576100f9945f52600160205260405f2060018060a01b0333165f526020528360405f2091039055846102c5565b634a1406b160e11b5f525f60045260245ffd5b63e602df0560e01b5f525f60045260245ffd5b8390637dc7a0d960e11b5f523360045260245260445260645ffd5b346100cf575f3660031901126100cf576020600254604051908152f35b346100cf5760403660031901126100cf576103866104e8565b602435903315610322576001600160a01b031690811561030f57335f52600160205260405f20825f526020528060405f20556040519081527f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92560203392a3602060405160018152f35b346100cf575f3660031901126100cf575f6003548060011c906001811680156104b4575b602083108114610201578285529081156101e5575060011461045f5750819003601f01601f191681019067ffffffffffffffff82118183101761017c57610178829182604052826104be565b905060035f527fc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b5f905b82821061049e57506020915082010182610148565b6001816020925483858801015201910190610489565b91607f1691610413565b602060409281835280519182918282860152018484015e5f828201840152601f01601f1916010190565b600435906001600160a01b03821682036100cf57565b602435906001600160a01b03821682036100cf57565b6001600160a01b03169081156105be576001600160a01b03169182156105ab57815f525f60205260405f205481811061059257817fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef92602092855f525f84520360405f2055845f525f825260405f20818154019055604051908152a3565b8263391434e360e21b5f5260045260245260445260645ffd5b63ec442f0560e01b5f525f60045260245ffd5b634b637e8f60e11b5f525f60045260245ffdfea26469706673582212204aca42ec3c35b121e076e50f2fa2219b19c205b27e0d81bc90d920edc96828bb64736f6c634300081e0033a2646970667358221220829973953b574afca747575b4150af43efd41dc586f1b66c27eb3043f286ed4864736f6c634300081e0033",
+    "sourceMap": "193:276:20:-:0;;;;;;;;;;3166:4:2;193:276:20;;;3166:4:2;193:276:20;;;;;;;;;;;",
+    "deployedSourceMap": "193:276:20:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;849:28:1;193:276:20;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;193:276:20;;;;336:42:0;342:19:20;;;;193:276;;-1:-1:-1;;;342:19:20;;193:276;;;;;336:42:0;342:19:20;;;;;;;;193:276;;;;385:28;;;;;;;;;;;;;;193:276;385:28;;;;;;274:10;193:276;;385:28;;;;;;;;;336:42:0;423:18:20;;;;193:276;;-1:-1:-1;;;423:18:20;;;193:276;;;423:18;336:42:0;423:18:20;;;;;;;;193:276;;;-1:-1:-1;;;;;193:276:20;;;;;;;423:18;;;;;;:::i;:::-;193:276;;423:18;;;193:276;;;;423:18;193:276;;2024:14:0;193:276:20;;2024:14:0;;;;385:28:20;193:276;;;2024:14:0;;;;;;;;385:28:20;-1:-1:-1;;;2024:14:0;;;193:276:20;2024:14:0;;;;342:19:20;;;;193:276;342:19;;:::i;:::-;193:276;342:19;;;;193:276;;2024:14:0;193:276:20;2024:14:0;;;;;342:19:20;193:276;;;;;;;;;-1:-1:-1;;193:276:20;;;;;274:10;193:276;;;;2024:14:0;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;-1:-1:-1;2024:14:0;;;;;-1:-1:-1;2024:14:0",
+    "sourcePath": "/home/shubz/Blockchain/chain-nfts/script/DeployOurToken.s.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.30+commit.73712a01"
+    },
+    "ast": {
+        "absolutePath": "/home/shubz/Blockchain/chain-nfts/script/DeployOurToken.s.sol",
+        "exportedSymbols": {
+            "DeployOurToken": [
+                36307
+            ],
+            "OurToken": [
+                36329
+            ],
+            "Script": [
+                100
+            ]
+        },
+        "id": 36308,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 36269,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".18"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:24:20"
+            },
+            {
+                "absolutePath": "/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/Script.sol",
+                "file": "/home/shubz/Blockchain/chain-nfts/lib/forge-std/src/Script.sol",
+                "id": 36271,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 36308,
+                "sourceUnit": 101,
+                "src": "59:86:20",
+                "symbolAliases": [
+                    {
+                        "foreign": {
+                            "id": 36270,
+                            "name": "Script",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 100,
+                            "src": "67:6:20",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    }
+                ],
+                "unitAlias": ""
+            },
+            {
+                "absolutePath": "/home/shubz/Blockchain/chain-nfts/src/OurToken.sol",
+                "file": "../src/OurToken.sol",
+                "id": 36273,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 36308,
+                "sourceUnit": 36330,
+                "src": "146:45:20",
+                "symbolAliases": [
+                    {
+                        "foreign": {
+                            "id": 36272,
+                            "name": "OurToken",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 36329,
+                            "src": "154:8:20",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    }
+                ],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 36274,
+                            "name": "Script",
+                            "nameLocations": [
+                                "220:6:20"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 100,
+                            "src": "220:6:20"
+                        },
+                        "id": 36275,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "220:6:20"
+                    }
+                ],
+                "canonicalName": "DeployOurToken",
+                "contractDependencies": [
+                    36329
+                ],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 36307,
+                "linearizedBaseContracts": [
+                    36307,
+                    100,
+                    9007,
+                    3152,
+                    1062,
+                    59,
+                    47
+                ],
+                "name": "DeployOurToken",
+                "nameLocation": "202:14:20",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": true,
+                        "functionSelector": "2ff2e9dc",
+                        "id": 36278,
+                        "mutability": "constant",
+                        "name": "INITIAL_SUPPLY",
+                        "nameLocation": "257:14:20",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 36307,
+                        "src": "233:51:20",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 36276,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "233:7:20",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "31303030",
+                            "id": 36277,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "274:10:20",
+                            "subdenomination": "ether",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_rational_1000000000000000000000_by_1",
+                                "typeString": "int_const 1000000000000000000000"
+                            },
+                            "value": "1000"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 36305,
+                            "nodeType": "Block",
+                            "src": "332:135:20",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [],
+                                        "expression": {
+                                            "argumentTypes": [],
+                                            "expression": {
+                                                "id": 36284,
+                                                "name": "vm",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 43,
+                                                "src": "342:2:20",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_contract$_Vm_$14123",
+                                                    "typeString": "contract Vm"
+                                                }
+                                            },
+                                            "id": 36286,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "345:14:20",
+                                            "memberName": "startBroadcast",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 11074,
+                                            "src": "342:17:20",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                                                "typeString": "function () external"
+                                            }
+                                        },
+                                        "id": 36287,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "342:19:20",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 36288,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "342:19:20"
+                                },
+                                {
+                                    "assignments": [
+                                        36291
+                                    ],
+                                    "declarations": [
+                                        {
+                                            "constant": false,
+                                            "id": 36291,
+                                            "mutability": "mutable",
+                                            "name": "ot",
+                                            "nameLocation": "379:2:20",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 36305,
+                                            "src": "370:11:20",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_contract$_OurToken_$36329",
+                                                "typeString": "contract OurToken"
+                                            },
+                                            "typeName": {
+                                                "id": 36290,
+                                                "nodeType": "UserDefinedTypeName",
+                                                "pathNode": {
+                                                    "id": 36289,
+                                                    "name": "OurToken",
+                                                    "nameLocations": [
+                                                        "370:8:20"
+                                                    ],
+                                                    "nodeType": "IdentifierPath",
+                                                    "referencedDeclaration": 36329,
+                                                    "src": "370:8:20"
+                                                },
+                                                "referencedDeclaration": 36329,
+                                                "src": "370:8:20",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_contract$_OurToken_$36329",
+                                                    "typeString": "contract OurToken"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "id": 36297,
+                                    "initialValue": {
+                                        "arguments": [
+                                            {
+                                                "id": 36295,
+                                                "name": "INITIAL_SUPPLY",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 36278,
+                                                "src": "398:14:20",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            ],
+                                            "id": 36294,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "nodeType": "NewExpression",
+                                            "src": "385:12:20",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_creation_nonpayable$_t_uint256_$returns$_t_contract$_OurToken_$36329_$",
+                                                "typeString": "function (uint256) returns (contract OurToken)"
+                                            },
+                                            "typeName": {
+                                                "id": 36293,
+                                                "nodeType": "UserDefinedTypeName",
+                                                "pathNode": {
+                                                    "id": 36292,
+                                                    "name": "OurToken",
+                                                    "nameLocations": [
+                                                        "389:8:20"
+                                                    ],
+                                                    "nodeType": "IdentifierPath",
+                                                    "referencedDeclaration": 36329,
+                                                    "src": "389:8:20"
+                                                },
+                                                "referencedDeclaration": 36329,
+                                                "src": "389:8:20",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_contract$_OurToken_$36329",
+                                                    "typeString": "contract OurToken"
+                                                }
+                                            }
+                                        },
+                                        "id": 36296,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "385:28:20",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_contract$_OurToken_$36329",
+                                            "typeString": "contract OurToken"
+                                        }
+                                    },
+                                    "nodeType": "VariableDeclarationStatement",
+                                    "src": "370:43:20"
+                                },
+                                {
+                                    "expression": {
+                                        "arguments": [],
+                                        "expression": {
+                                            "argumentTypes": [],
+                                            "expression": {
+                                                "id": 36298,
+                                                "name": "vm",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 43,
+                                                "src": "423:2:20",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_contract$_Vm_$14123",
+                                                    "typeString": "contract Vm"
+                                                }
+                                            },
+                                            "id": 36300,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "426:13:20",
+                                            "memberName": "stopBroadcast",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 11090,
+                                            "src": "423:16:20",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                                                "typeString": "function () external"
+                                            }
+                                        },
+                                        "id": 36301,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "423:18:20",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 36302,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "423:18:20"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 36303,
+                                        "name": "ot",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 36291,
+                                        "src": "458:2:20",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_contract$_OurToken_$36329",
+                                            "typeString": "contract OurToken"
+                                        }
+                                    },
+                                    "functionReturnParameters": 36283,
+                                    "id": 36304,
+                                    "nodeType": "Return",
+                                    "src": "451:9:20"
+                                }
+                            ]
+                        },
+                        "functionSelector": "c0406226",
+                        "id": 36306,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "run",
+                        "nameLocation": "300:3:20",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 36279,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "303:2:20"
+                        },
+                        "returnParameters": {
+                            "id": 36283,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 36282,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 36306,
+                                    "src": "323:8:20",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_contract$_OurToken_$36329",
+                                        "typeString": "contract OurToken"
+                                    },
+                                    "typeName": {
+                                        "id": 36281,
+                                        "nodeType": "UserDefinedTypeName",
+                                        "pathNode": {
+                                            "id": 36280,
+                                            "name": "OurToken",
+                                            "nameLocations": [
+                                                "323:8:20"
+                                            ],
+                                            "nodeType": "IdentifierPath",
+                                            "referencedDeclaration": 36329,
+                                            "src": "323:8:20"
+                                        },
+                                        "referencedDeclaration": 36329,
+                                        "src": "323:8:20",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_contract$_OurToken_$36329",
+                                            "typeString": "contract OurToken"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "322:10:20"
+                        },
+                        "scope": 36307,
+                        "src": "291:176:20",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "scope": 36308,
+                "src": "193:276:20",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "33:437:20"
+    },
+    "functionHashes": {
+        "INITIAL_SUPPLY()": "2ff2e9dc",
+        "IS_SCRIPT()": "f8ccbf47",
+        "run()": "c0406226"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "620600",
+            "executionCost": "24879",
+            "totalCost": "645479"
+        },
+        "external": {
+            "INITIAL_SUPPLY()": "153",
+            "IS_SCRIPT()": "2321",
+            "run()": "infinite"
+        }
+    }
+}
